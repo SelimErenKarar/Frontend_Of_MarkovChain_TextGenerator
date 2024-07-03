@@ -1,0 +1,66 @@
+/* Custom CSS styles */
+body {
+    background: #04b7ed; /* Body background color */
+    font-family: Arial, sans-serif;
+    color: #000000; /* Text color */
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #225beb; /* Container background color */
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.custom-textarea {
+    background-color: #f0f0f0; /* Textarea background color */
+    border: 2px solid #cccccc; /* Textarea border color */
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    color: #333333; /* Text color */
+    height: 50px;
+}
+
+.result-text {
+    background-color: #ffffff; /* Result area background color */
+    border: 2px solid #cccccc; /* Result area border color */
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 18px;
+    color: #333333; /* Text color */
+    overflow-y: auto;
+    max-height: 200px;
+    word-break: break-word; /* Break long words */
+}
+
+.btn-primary {
+    background-color: #04b7ed; /* Button background color */
+    border: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #0a0371; /* Button hover background color */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold; /* Make headings bold */
+}
+
+.alert {
+    font-size: 14px;
+}
+
